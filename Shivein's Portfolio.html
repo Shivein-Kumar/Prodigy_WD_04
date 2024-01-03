@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivein -Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(2, 7, 73);
+            color: aliceblue;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(2, 32, 109);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: aliceblue;
+        }
+
+        nav ul li a:hover {
+            color: rgb(229, 96, 244);
+            font-size: 1.03rem;
+        }
+
+        .left {
+            font-size: 2rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 23px 0;
+            align-items: center;
+        }
+
+        .leftSection {
+            font-size: 2rem;
+
+        }
+
+        .leftSection .buttons {
+            padding: 50px 0;
+        }
+
+        .leftSection .btn {
+            padding: 12px;
+            background: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .rightSection img {
+            width: 350px;
+            border-radius: 50px;
+        }
+
+
+        .rightSection img {
+            width: 400px;
+            margin: 30px;
+        }
+
+        .purple {
+            color: rgb(175, 95, 250);
+        }
+
+        #element {
+            color: rgb(178, 108, 245);
+        }
+
+        .secondSection {
+            max-width: 88vw;
+            margin: auto;
+            height: 70vh;
+        }
+
+        .secondSection h1 {
+            font-size: 2rem;
+            margin-top: 40px;
+            margin-bottom: 100px;
+        }
+
+        .text-gray {
+            color: rgb(250, 105, 218);
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 90vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 2px;
+            background: white;
+            margin: 0 130px;
+        }
+
+        .image-top {
+            width: 50px;
+            position: relative;
+            top: -52px;
+            left: -25px;
+
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 140px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 90px;
+            color: gray;
+            width: 200px;
+            font-size: 10px;
+        }
+
+        footer {
+            background-color: #0e0e1a;
+            margin-top: 120px;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-between;
+        }
+
+        .footer-first {
+            font-size: 1.25rem;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 250px;
+        }
+
+        .footer .footer-second a,
+        .footer-third a,
+        .footer-fourth a {
+            text-decoration: none;
+            color: white;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: grey;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Shivein's Portfolio</div>
+
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">Service</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hey, I am <span class="purple"> Shivein Kumar </span>
+                <div>And I am a passionate</div>
+
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="my.jpg" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img src="https://cdn-icons-png.flaticon.com/128/1081/1081040.png" alt="" class="image-top">
+                    <div class="vertical-title">Studies<br>(Current)</div>
+                    <div class="vertical-desc">Currently I am a second-year student at VESIT, Chembur and I am doing a BE in computer engineering </div>
+                </div>
+                <div class="vertical">
+                    <img src="graphic-design.png" alt="" class="image-top">
+                    <div class="vertical-title">Graphic Designer <br>(2020-Present)</div>
+                    <div class="vertical-desc">I found out about graphic designing from various youtubers and then learned
+                        it from youtube only. Currently I do not hold any certificates in graphic design, but soon I will be
+                        working for some experience or for a few bucks.</div>
+                </div>
+                <div class="vertical">
+                    <img src="https://cdn-icons-png.flaticon.com/128/3094/3094455.png" alt="" class="image-top">
+                    <div class="vertical-title">Front-end Developer <br>(2022-Present)</div>
+                    <div class="vertical-desc">I have studied and practised HTML, CSS and Java-Script from Youtube and
+                        from my own college as well. In my spare time I try new css and javascript codes on my own.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="https://cdn-icons-png.flaticon.com/128/2634/2634393.png" alt="" class="image-top">
+                    <div class="vertical-title">Video Editor <br>(2020-2022)</div>
+                    <div class="vertical-desc">During the pandemic, I started learning video editing as a part time
+                        helped my buddies with some good edits and videos. Although, I didn't get any major contract,
+                        but I managed to make some bucks off it.</div>
+                </div>
+                <div class="vertical">
+                    <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-worker-human-resources-flaticons-lineal-color-flat-icons.png"
+                        alt="" class="image-top">
+                    <div class="vertical-title">Intern at Internpe <br>(September 2023- Octber 2023)</div>
+                    <div class="vertical-desc">My first internship was at Internpe in which I worked on 3 different
+                        projects using html, css and javascript. These tasks included making Netflix homepage clone, a
+                        simple tempterature convertor calculator bwtween celsius, fahrenheit and kelvin and a personal
+                        portfolio website.</div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                Shivein's Developer Portfolio
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Email</a></li>
+                    <li><a href="">Github</a></li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li><a href="">Instagram</a></li>
+                    <li><a href="">Twitter</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169www.shiveinportfolio.com | All rights reserved.
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Video Editor', 'Graphic Designer', 'Web Developer.'],
+            typeSpeed: 80,
+        });
+    </script>
+</body>
+
+</html>
